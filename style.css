@@ -1,0 +1,525 @@
+:root {
+    --black: #050807;
+    --black-deep: #020403;
+
+    --dark-green: #08130d;
+    --panel: #0b1b11;
+    --panel-light: #102419;
+
+    --green-dark: #174522;
+    --green: #286b32;
+
+    --electric: #00ff3c;
+
+    --text: #b9cbbd;
+    --muted: #66806d;
+}
+
+
+/* ==============================
+   BASE
+   ============================== */
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #0b1a10 0%,
+            var(--black) 60%,
+            var(--black-deep) 100%
+        );
+
+    color: var(--text);
+
+    font-family:
+        "Courier New",
+        Courier,
+        monospace;
+
+    font-size: 13px;
+}
+
+
+/* ==============================
+   DATABASE
+   ============================== */
+
+.database {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    background: var(--black);
+
+    border: 1px solid var(--green-dark);
+
+    box-shadow:
+        0 0 25px rgba(0, 255, 60, 0.04);
+}
+
+
+/* ==============================
+   HEADER
+   ============================== */
+
+.db-header {
+    padding: 28px 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--panel-light),
+            var(--dark-green)
+        );
+
+    border-bottom: 1px solid var(--green);
+}
+
+
+.db-title {
+    color: var(--electric);
+
+    font-size: 22px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.db-subtitle {
+    margin-top: 8px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+
+/* ==============================
+   SYSTEM MENU
+   ============================== */
+
+.system-menu {
+    padding: 15px 20px;
+
+    background: var(--black-deep);
+
+    border-bottom: 1px solid var(--green-dark);
+}
+
+
+.menu-entry {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 5px 10px;
+
+    color: var(--text);
+}
+
+
+.menu-entry:hover {
+    background: var(--dark-green);
+
+    color: var(--electric);
+}
+
+
+.status-ok {
+    color: var(--electric);
+}
+
+
+.locked {
+    color: var(--muted);
+}
+
+
+.unknown {
+    color: #879a8b;
+}
+
+
+/* ==============================
+   SECTIONS
+   ============================== */
+
+.database-section {
+    margin: 20px;
+
+    border: 1px solid var(--green-dark);
+
+    background: var(--panel);
+}
+
+
+.section-title {
+    padding: 10px 14px;
+
+    background: var(--dark-green);
+
+    border-bottom: 1px solid var(--green-dark);
+
+    color: var(--electric);
+
+    font-size: 11px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+.section-title span {
+    float: right;
+
+    color: var(--muted);
+}
+
+
+.section-content {
+    padding: 20px;
+}
+
+
+/* ==============================
+   LABELS
+   ============================== */
+
+.label {
+    color: var(--muted);
+}
+
+
+.value {
+    color: var(--text);
+}
+
+
+/* ==============================
+   SUBSECTIONS
+   ============================== */
+
+.subsection-title {
+    margin-top: 25px;
+    margin-bottom: 12px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+}
+
+
+/* ==============================
+   INTERESTS
+   ============================== */
+
+.interests {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+
+.interest-group {
+    padding: 12px;
+
+    border-left: 1px solid var(--green-dark);
+
+    background: rgba(0, 0, 0, 0.15);
+}
+
+
+.interest-category {
+    margin-bottom: 8px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+}
+
+
+.interest-list {
+    color: #8fa596;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+/* ==============================
+   QUOTE
+   ============================== */
+
+.quote {
+    margin-top: 25px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid var(--green-dark);
+
+    color: var(--green);
+
+    font-size: 11px;
+
+    font-style: italic;
+}
+
+
+/* ==============================
+   K4PRA'S SCREEN
+   ============================== */
+
+.screen-status {
+    padding: 10px;
+
+    border: 1px solid var(--green-dark);
+
+    background: var(--black-deep);
+}
+
+
+.projects {
+    color: var(--text);
+
+    line-height: 2;
+
+    font-size: 11px;
+}
+
+
+.projects div:first-child,
+.projects div:nth-child(2) {
+    color: var(--electric);
+}
+
+
+/* ==============================
+   RESIDENTS
+   ============================== */
+
+.resident-header {
+    margin-bottom: 15px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+}
+
+
+.resident-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+.resident {
+    display: flex;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    background: var(--black-deep);
+
+    border-left: 2px solid var(--green-dark);
+}
+
+
+.resident:hover {
+    border-left-color: var(--electric);
+}
+
+
+.resident-number {
+    color: var(--muted);
+}
+
+
+.resident-info {
+    line-height: 1.7;
+}
+
+
+.resident-name {
+    margin-bottom: 5px;
+
+    color: var(--electric);
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+.resident-note {
+    margin-top: 5px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+}
+
+
+.resident-note span {
+    color: #819587;
+}
+
+
+/* ==============================
+   RESIDENT TOTAL
+   ============================== */
+
+.resident-total {
+    margin-top: 20px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid var(--green-dark);
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   LOCKED
+   ============================== */
+
+.locked-section {
+    opacity: 0.7;
+}
+
+
+.locked-content {
+    padding: 30px 20px;
+
+    text-align: center;
+
+    color: var(--muted);
+
+    font-size: 11px;
+
+    line-height: 1.7;
+}
+
+
+.muted {
+    color: #405548;
+}
+
+
+/* ==============================
+   SECRET FILES
+   ============================== */
+
+.secret-section {
+    border-color: #15271b;
+}
+
+
+.secret-content {
+    padding: 25px;
+
+    color: #526b5a;
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+.db-footer {
+    padding: 20px;
+
+    border-top: 1px solid var(--green-dark);
+
+    background: var(--black-deep);
+
+    color: var(--muted);
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.8;
+}
+
+
+.footer-mark {
+    margin-top: 10px;
+
+    color: var(--green);
+}
+
+
+/* ==============================
+   MOBILE
+   ============================== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px 5px;
+
+        font-size: 12px;
+    }
+
+
+    .db-header {
+        padding: 20px;
+    }
+
+
+    .db-title {
+        font-size: 17px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .database-section {
+        margin: 10px;
+    }
+
+
+    .section-content {
+        padding: 15px;
+    }
+
+
+    .interests {
+        grid-template-columns: 1fr;
+    }
+
+
+    .menu-entry {
+        font-size: 10px;
+    }
+
+  }

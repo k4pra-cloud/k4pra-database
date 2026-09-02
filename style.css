@@ -810,3 +810,387 @@ select:focus {
 .topbar {
     text-shadow: none !important;
 }
+
+/* =========================================================
+   K4PRA SYSTEM DATABASE
+   V1.1-B // RETRO INTERFACE
+   SYSTEM ERA: 1999-2004
+   ========================================================= */
+
+
+/* ==============================
+   RETRO // MAIN FRAME
+   ============================== */
+
+.container.main {
+    background: #050807 !important;
+
+    border: 1px solid #174522 !important;
+
+    box-shadow:
+        0 0 18px rgba(0, 0, 0, 0.55) !important;
+
+    border-radius: 0 !important;
+}
+
+
+/* ==============================
+   RETRO // LEFT CONTENT
+   ============================== */
+
+.col-md-9 {
+    background: transparent !important;
+
+    border-right: 1px solid #102419 !important;
+}
+
+
+/* ==============================
+   RETRO // TOPBAR
+   ============================== */
+
+.topbar {
+    background: #030604 !important;
+
+    border: none !important;
+
+    border-bottom: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    color: #66806d !important;
+}
+
+
+/* ==============================
+   RETRO // NAVIGATION
+   ============================== */
+
+.navbar {
+    background: #050807 !important;
+
+    border: none !important;
+
+    border-bottom: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+}
+
+
+.navbar li a {
+    background: transparent !important;
+
+    color: #66806d !important;
+
+    border-radius: 0 !important;
+
+    font-family: "Courier New", monospace !important;
+
+    transition:
+        background 0.12s linear,
+        color 0.12s linear;
+}
+
+
+.navbar li a:hover {
+    background: #0b1b11 !important;
+
+    color: #00ff3c !important;
+}
+
+
+/* ==============================
+   RETRO // BREADCRUMB
+   ============================== */
+
+.breadcrumb {
+    background: #071009 !important;
+
+    border: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    color: #66806d !important;
+}
+
+
+.breadcrumb a {
+    color: #789982 !important;
+}
+
+
+.breadcrumb a:hover {
+    color: #00ff3c !important;
+}
+
+
+/* ==============================
+   RETRO // PANELS
+   ============================== */
+
+.panel {
+    background: #071009 !important;
+
+    border: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+}
+
+
+.panel-heading {
+    background: #0b1b11 !important;
+
+    border-bottom: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    color: #b9cbbd !important;
+
+    font-family: "Courier New", monospace !important;
+
+    text-transform: uppercase;
+}
+
+
+.panel-footer {
+    background: #030604 !important;
+
+    border-top: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    color: #66806d !important;
+}
+
+
+/* ==============================
+   RETRO // DEN TABLES
+   ============================== */
+
+.table {
+    background: #050807 !important;
+
+    border: 1px solid #174522 !important;
+
+    border-radius: 0 !important;
+
+    color: #b9cbbd !important;
+}
+
+
+/* TABLE HEADERS */
+
+.table .top,
+.table > thead > tr > th {
+    background: #0b1b11 !important;
+
+    border-color: #174522 !important;
+
+    color: #b9cbbd !important;
+
+    font-family: "Courier New", monospace !important;
+}
+
+
+/* TABLE FOOTERS */
+
+.table .bottom {
+    background: #030604 !important;
+
+    border-top: 1px solid #174522 !important;
+
+    color: #66806d !important;
+}
+
+
+/* ==============================
+   RETRO // ABOUT TABLE
+   ============================== */
+
+tr.right {
+    background: #050807 !important;
+
+    color: #b9cbbd !important;
+}
+
+
+td.right {
+    background: #071009 !important;
+
+    color: #b9cbbd !important;
+
+    border-color: #14251a !important;
+}
+
+
+/* ==============================
+   RETRO // INFORMATION BLOCKS
+   ============================== */
+
+.inner-table {
+    background: #050807 !important;
+
+    border: 1px solid #102419 !important;
+
+    border-radius: 0 !important;
+}
+
+
+.inner-table .right {
+    background: #0b1b11 !important;
+
+    color: #66806d !important;
+
+    border-color: #102419 !important;
+}
+
+
+.inner-table .left {
+    background: #050807 !important;
+
+    color: #b9cbbd !important;
+
+    border-color: #102419 !important;
+}
+
+
+/* ==============================
+   RETRO // INPUTS
+   ============================== */
+
+input,
+textarea,
+select,
+button {
+    border-radius: 0 !important;
+
+    font-family: "Courier New", monospace !important;
+}
+
+
+input,
+textarea,
+select {
+    background: #020403 !important;
+
+    border: 1px solid #174522 !important;
+
+    color: #b9cbbd !important;
+}
+
+
+input:hover,
+textarea:hover,
+select:hover {
+    border-color: #286b32 !important;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #00ff3c !important;
+
+    outline: none !important;
+
+    box-shadow:
+        0 0 5px rgba(0, 255, 60, 0.08) !important;
+}
+
+
+/* ==============================
+   RETRO // BUTTONS
+   ============================== */
+
+.btn {
+    background: #071009 !important;
+
+    border: 1px solid #286b32 !important;
+
+    border-radius: 0 !important;
+
+    color: #b9cbbd !important;
+
+    font-family: "Courier New", monospace !important;
+
+    box-shadow: none !important;
+
+    text-shadow: none !important;
+}
+
+
+.btn:hover,
+.btn:focus {
+    background: #0b1b11 !important;
+
+    border-color: #00ff3c !important;
+
+    color: #00ff3c !important;
+}
+
+
+.btn:active {
+    background: #020403 !important;
+
+    box-shadow:
+        inset 0 0 6px rgba(0, 255, 60, 0.08) !important;
+}
+
+
+/* ==============================
+   RETRO // LINKS
+   ============================== */
+
+a {
+    text-shadow: none !important;
+}
+
+
+a:link,
+a:visited {
+    color: #789982;
+}
+
+
+a:hover {
+    color: #00ff3c !important;
+}
+
+
+/* ==============================
+   RETRO // IMPORTANT INFORMATION
+   ============================== */
+
+.text-success,
+.text-info {
+    color: #00ff3c !important;
+}
+
+
+/* ==============================
+   RETRO // MOBILE
+   ============================== */
+
+@media (max-width: 767px) {
+
+    .container.main {
+        border-left: 1px solid #174522 !important;
+
+        border-right: 1px solid #174522 !important;
+    }
+
+    .navbar li a {
+        font-size: 12px !important;
+    }
+
+    .panel-heading {
+        letter-spacing: 0.5px;
+    }
+
+    .table {
+        font-size: 12px !important;
+    }
+
+}

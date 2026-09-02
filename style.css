@@ -1194,3 +1194,270 @@ a:hover {
     }
 
 }
+
+/* =========================================================
+   K4PRA SYSTEM DATABASE
+   V1.1-C // SYSTEM POLISH
+   INTERFACE REFINEMENT
+   ========================================================= */
+
+
+/* ==============================
+   SYSTEM // TEXT HIERARCHY
+   ============================== */
+
+body {
+    font-family: "Courier New", monospace !important;
+    letter-spacing: 0.15px;
+}
+
+small,
+.text-muted,
+.muted {
+    color: #66806d !important;
+}
+
+strong,
+b {
+    color: #b9cbbd;
+}
+
+
+/* ==============================
+   SYSTEM // HEADERS
+   ============================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Courier New", monospace !important;
+    font-weight: normal !important;
+    letter-spacing: 0.5px;
+}
+
+.panel-heading h1,
+.panel-heading h2,
+.panel-heading h3,
+.panel-heading h4,
+.panel-heading h5,
+.panel-heading h6 {
+    color: #b9cbbd !important;
+}
+
+
+/* ==============================
+   SYSTEM // PANEL REFINEMENT
+   ============================== */
+
+.panel {
+    border-color: #174522 !important;
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 255, 60, 0.015) !important;
+}
+
+.panel-heading {
+    letter-spacing: 0.4px;
+}
+
+.panel-footer {
+    font-size: 11px !important;
+}
+
+
+/* ==============================
+   SYSTEM // TABLE REFINEMENT
+   ============================== */
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    vertical-align: middle !important;
+}
+
+.table .top {
+    letter-spacing: 0.35px;
+}
+
+.table .bottom {
+    font-size: 11px !important;
+}
+
+
+/* ==============================
+   SYSTEM // INFORMATION CELLS
+   ============================== */
+
+td.right,
+tr.right,
+.inner-table .right {
+    font-size: 12px !important;
+}
+
+.inner-table .right {
+    letter-spacing: 0.15px;
+}
+
+
+/* ==============================
+   SYSTEM // BUTTON REFINEMENT
+   ============================== */
+
+.btn {
+    min-height: 30px;
+    padding: 6px 12px !important;
+    letter-spacing: 0.3px;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 255, 60, 0.08) !important;
+}
+
+
+/* ==============================
+   SYSTEM // CARDS
+   ORIGINAL LIODEN IMAGES PRESERVED
+   ============================== */
+
+.cave-grid,
+.mound-grid {
+    border-radius: 0 !important;
+}
+
+.cave-grid > div,
+.mound-grid > div {
+    border-radius: 0 !important;
+}
+
+.cave-grid a,
+.mound-grid a {
+    border-radius: 0 !important;
+}
+
+
+/* ==============================
+   SYSTEM // CARD TEXT
+   ============================== */
+
+.cave-grid .bottom,
+.mound-grid .bottom {
+    background: #030604 !important;
+    border-top: 1px solid #174522 !important;
+    color: #b9cbbd !important;
+    font-family: "Courier New", monospace !important;
+}
+
+.cave-grid .bottom small,
+.mound-grid .bottom small {
+    color: #66806d !important;
+}
+
+
+/* ==============================
+   SYSTEM // CARD HOVER
+   ============================== */
+
+.cave-grid a:hover,
+.mound-grid a:hover {
+    text-decoration: none !important;
+}
+
+.cave-grid a:hover .bottom,
+.mound-grid a:hover .bottom {
+    color: #00ff3c !important;
+}
+
+
+/* ==============================
+   SYSTEM // STATUS INFORMATION
+   ============================== */
+
+.text-success,
+.text-info {
+    color: #00d936 !important;
+}
+
+.text-warning {
+    color: #a8a46b !important;
+}
+
+.text-danger {
+    color: #a96b6b !important;
+}
+
+
+/* ==============================
+   SYSTEM // HORIZONTAL DIVIDERS
+   ============================== */
+
+hr {
+    border-top: 1px solid #174522 !important;
+    opacity: 0.75;
+}
+
+
+/* ==============================
+   SYSTEM // FORM CONTROLS
+   ============================== */
+
+.form-control {
+    background: #020403 !important;
+    border: 1px solid #174522 !important;
+    border-radius: 0 !important;
+    color: #b9cbbd !important;
+    font-family: "Courier New", monospace !important;
+}
+
+.form-control::placeholder {
+    color: #4e6655 !important;
+}
+
+.form-control:focus {
+    border-color: #286b32 !important;
+    box-shadow:
+        0 0 4px rgba(0, 255, 60, 0.06) !important;
+}
+
+
+/* ==============================
+   SYSTEM // MOBILE POLISH
+   ============================== */
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 12px !important;
+    }
+
+    .panel-heading {
+        font-size: 12px !important;
+    }
+
+    .panel-footer {
+        font-size: 10px !important;
+    }
+
+    .table {
+        font-size: 12px !important;
+    }
+
+    .table .bottom {
+        font-size: 10px !important;
+    }
+
+    .btn {
+        min-height: 32px;
+        padding: 7px 11px !important;
+    }
+
+    .cave-grid .bottom,
+    .mound-grid .bottom {
+        font-size: 11px !important;
+    }
+
+}

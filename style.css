@@ -1580,3 +1580,297 @@ body {
     }
 
 }
+
+/* =========================================================
+   K4PRA OS
+   V1.3 // SYSTEM DETAILS
+   INTERNAL SYSTEM LAYER
+   ========================================================= */
+
+
+/* ==============================
+   OS // MAIN SYSTEM FRAME
+   ============================== */
+
+.container.main {
+    position: relative !important;
+}
+
+
+/* ==============================
+   OS // SYSTEM IDENTIFIER
+   ============================== */
+
+.container.main::before {
+    content:
+        "K4PRA OS  //  v1.04  //  •••-009  //  EXPANSION";
+
+    display: block;
+
+    padding: 5px 10px;
+
+    background: #030604;
+    border-bottom: 1px solid #102419;
+
+    color: #66806d;
+
+    font-family: "Courier New", monospace;
+    font-size: 9px;
+    letter-spacing: 1px;
+
+    text-align: right;
+
+    opacity: 0.75;
+}
+
+
+/* ==============================
+   OS // SYSTEM MARK
+   ============================== */
+
+.container.main::after {
+    content:
+        "SYSTEM CHANNEL: 09  //  STATUS: ONLINE";
+
+    display: block;
+
+    margin-top: 8px;
+    padding: 4px 8px;
+
+    color: #4e6655;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+
+    text-align: right;
+
+    opacity: 0.55;
+}
+
+
+/* ==============================
+   OS // PANEL IDENTIFICATION
+   ============================== */
+
+.panel-heading {
+    position: relative !important;
+}
+
+.panel-heading::after {
+    content: "[SYS]";
+
+    float: right;
+
+    color: #4e6655;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+    letter-spacing: 1px;
+
+    opacity: 0.7;
+}
+
+
+/* ==============================
+   OS // INFORMATION SEPARATOR
+   ============================== */
+
+.panel {
+    position: relative !important;
+}
+
+.panel::before {
+    content: "";
+
+    position: absolute;
+
+    top: -1px;
+    left: 12px;
+
+    width: 32px;
+    height: 1px;
+
+    background: #286b32;
+
+    opacity: 0.65;
+}
+
+
+/* ==============================
+   OS // DATABASE HEADERS
+   ============================== */
+
+.table .top {
+    position: relative;
+}
+
+.table .top::after {
+    content: "// DATABASE";
+
+    float: right;
+
+    color: #4e6655;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+
+    letter-spacing: 0.8px;
+}
+
+
+/* ==============================
+   OS // SYSTEM STATUS
+   ============================== */
+
+.text-success {
+    font-weight: normal !important;
+}
+
+
+/* ==============================
+   OS // EXPANSION STATUS
+   ============================== */
+
+#pride,
+#about,
+#player {
+    position: relative;
+}
+
+
+/* ==============================
+   OS // MYSTERY SIGNAL
+   ============================== */
+
+.breadcrumb::after {
+    content:
+        "SIGNAL: K4-09 // UNRESOLVED";
+
+    float: right;
+
+    color: #4e6655;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+
+    letter-spacing: 0.5px;
+
+    opacity: 0.6;
+}
+
+
+/* ==============================
+   OS // ARCHIVE MARKER
+   ============================== */
+
+.panel-footer::after {
+    content:
+        "ARCHIVE // 03";
+
+    float: right;
+
+    color: #3f5746;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+
+    letter-spacing: 0.7px;
+
+    opacity: 0.65;
+}
+
+
+/* ==============================
+   OS // TECHNICAL DIVIDERS
+   ============================== */
+
+hr {
+    position: relative;
+}
+
+hr::after {
+    content: "[ 09 ]";
+
+    position: relative;
+
+    display: block;
+
+    margin-top: -5px;
+
+    padding-left: 8px;
+
+    background: #050807;
+
+    color: #3f5746;
+
+    font-family: "Courier New", monospace;
+    font-size: 8px;
+
+    width: max-content;
+
+    opacity: 0.7;
+}
+
+
+/* ==============================
+   OS // LINKS AS SYSTEM ENTRIES
+   ============================== */
+
+a:hover {
+    text-decoration: none !important;
+}
+
+
+/* ==============================
+   OS // SUBTLE ACTIVE MARK
+   ============================== */
+
+.navbar li.active > a,
+.navbar li.active > a:hover {
+    background: #071009 !important;
+
+    color: #b9cbbd !important;
+
+    border-left: 2px solid #286b32 !important;
+}
+
+
+/* ==============================
+   OS // MOBILE
+   ============================== */
+
+@media (max-width: 767px) {
+
+    .container.main::before {
+        font-size: 7px;
+        letter-spacing: 0.6px;
+        text-align: center;
+
+        padding: 5px 4px;
+    }
+
+    .container.main::after {
+        font-size: 7px;
+        text-align: center;
+
+        margin-top: 6px;
+    }
+
+    .panel-heading::after {
+        font-size: 7px;
+    }
+
+    .table .top::after {
+        display: none;
+    }
+
+    .breadcrumb::after {
+        display: block;
+
+        float: none;
+
+        margin-top: 4px;
+    }
+
+}
